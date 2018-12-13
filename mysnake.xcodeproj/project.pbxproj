@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040DDA6921B8B11F00014549 /* ListBodyitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040DDA6821B8B11F00014549 /* ListBodyitem.swift */; };
 		041CEAA521AF70AA00D30C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAA421AF70AA00D30C71 /* AppDelegate.swift */; };
-		041CEAA721AF70AA00D30C71 /* SnakeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAA621AF70AA00D30C71 /* SnakeController.swift */; };
+		041CEAA721AF70AA00D30C71 /* SnakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAA621AF70AA00D30C71 /* SnakeViewController.swift */; };
 		041CEAAA21AF70AA00D30C71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CEAA821AF70AA00D30C71 /* Main.storyboard */; };
 		041CEAAC21AF70AC00D30C71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041CEAAB21AF70AC00D30C71 /* Assets.xcassets */; };
 		041CEAAF21AF70AC00D30C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041CEAAD21AF70AC00D30C71 /* LaunchScreen.storyboard */; };
 		041CEABA21AF70AC00D30C71 /* mysnakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAB921AF70AC00D30C71 /* mysnakeTests.swift */; };
 		041CEAC521AF70AC00D30C71 /* mysnakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAC421AF70AC00D30C71 /* mysnakeUITests.swift */; };
 		041CEAD321AF71A700D30C71 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAD221AF71A700D30C71 /* Food.swift */; };
+		042CDF5621BA020800DA94BA /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CDF5521BA020800DA94BA /* Snake.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		040DDA6821B8B11F00014549 /* ListBodyitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBodyitem.swift; sourceTree = SOURCE_ROOT; };
 		041CEAA121AF70AA00D30C71 /* mysnake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mysnake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		041CEAA421AF70AA00D30C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		041CEAA621AF70AA00D30C71 /* SnakeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeController.swift; sourceTree = "<group>"; };
+		041CEAA621AF70AA00D30C71 /* SnakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeViewController.swift; sourceTree = "<group>"; };
 		041CEAA921AF70AA00D30C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041CEAAB21AF70AC00D30C71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041CEAAE21AF70AC00D30C71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		041CEAC421AF70AC00D30C71 /* mysnakeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mysnakeUITests.swift; sourceTree = "<group>"; };
 		041CEAC621AF70AC00D30C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041CEAD221AF71A700D30C71 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		042CDF5521BA020800DA94BA /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				041CEAA421AF70AA00D30C71 /* AppDelegate.swift */,
-				041CEAA621AF70AA00D30C71 /* SnakeController.swift */,
+				041CEAA621AF70AA00D30C71 /* SnakeViewController.swift */,
 				041CEAD221AF71A700D30C71 /* Food.swift */,
 				041CEAA821AF70AA00D30C71 /* Main.storyboard */,
+				040DDA6821B8B11F00014549 /* ListBodyitem.swift */,
+				042CDF5521BA020800DA94BA /* Snake.swift */,
 				041CEAAB21AF70AC00D30C71 /* Assets.xcassets */,
 				041CEAAD21AF70AC00D30C71 /* LaunchScreen.storyboard */,
 				041CEAB021AF70AC00D30C71 /* Info.plist */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				041CEAA721AF70AA00D30C71 /* SnakeController.swift in Sources */,
+				041CEAA721AF70AA00D30C71 /* SnakeViewController.swift in Sources */,
 				041CEAA521AF70AA00D30C71 /* AppDelegate.swift in Sources */,
+				042CDF5621BA020800DA94BA /* Snake.swift in Sources */,
+				040DDA6921B8B11F00014549 /* ListBodyitem.swift in Sources */,
 				041CEAD321AF71A700D30C71 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
