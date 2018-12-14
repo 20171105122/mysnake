@@ -14,6 +14,7 @@ class Snake{        //完整的定义蛇
     
     
     //weak var mainView: UIView!    //保存弱引用，避免互相引用引起的内存泄露
+    var direction = Direction.RIGHT
     
     init(view: UIView) {
         //mainView = view
@@ -24,6 +25,14 @@ class Snake{        //完整的定义蛇
     }
     
     func walk() {
-        head.frame.origin.x += 30.0
+        direction.walk(&head.frame.origin)
+    }
+    
+    func changeDirection(point: CGPoint){    //修改方向
+        direction.changeDirection(head.frame.origin, target: point)
+    }
+    
+    func eat() {     //增加蛇吃食的操作，当蛇吃掉一个食物时，就会增加一段身体
+        body.addOne(mainview)
     }
 }

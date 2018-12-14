@@ -17,6 +17,7 @@
 		041CEAC521AF70AC00D30C71 /* mysnakeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAC421AF70AC00D30C71 /* mysnakeUITests.swift */; };
 		041CEAD321AF71A700D30C71 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041CEAD221AF71A700D30C71 /* Food.swift */; };
 		042CDF5621BA020800DA94BA /* Snake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042CDF5521BA020800DA94BA /* Snake.swift */; };
+		04F67C4321C3323000BB0426 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F67C4221C3323000BB0426 /* Direction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		041CEAC621AF70AC00D30C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041CEAD221AF71A700D30C71 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		042CDF5521BA020800DA94BA /* Snake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snake.swift; sourceTree = "<group>"; };
+		04F67C4221C3323000BB0426 /* Direction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				041CEAD221AF71A700D30C71 /* Food.swift */,
 				041CEAA821AF70AA00D30C71 /* Main.storyboard */,
 				040DDA6821B8B11F00014549 /* ListBodyitem.swift */,
+				04F67C4221C3323000BB0426 /* Direction.swift */,
 				042CDF5521BA020800DA94BA /* Snake.swift */,
 				041CEAAB21AF70AC00D30C71 /* Assets.xcassets */,
 				041CEAAD21AF70AC00D30C71 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				041CEAA721AF70AA00D30C71 /* SnakeViewController.swift in Sources */,
 				041CEAA521AF70AA00D30C71 /* AppDelegate.swift in Sources */,
+				04F67C4321C3323000BB0426 /* Direction.swift in Sources */,
 				042CDF5621BA020800DA94BA /* Snake.swift in Sources */,
 				040DDA6921B8B11F00014549 /* ListBodyitem.swift in Sources */,
 				041CEAD321AF71A700D30C71 /* Food.swift in Sources */,
